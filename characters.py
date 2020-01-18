@@ -4,6 +4,9 @@
 
 # Define characters in typeface definitions.
 def callCharacters():
+
+    print("Function : callCharacters")
+
     typeface_characters = [
         'character_smiley',
         'character_smiley_cheeky',
