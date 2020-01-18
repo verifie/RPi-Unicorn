@@ -91,25 +91,25 @@ def callCharacters():
 
 
     character_poppy = [
-        [a,a,a,r,r,a,a,g],
-        [a,a,r,r,r,g,g,g],
-        [a,a,r,r,r,r,g,a],
-        [r,r,r,a,a,r,r,r],
-        [r,r,r,a,r,r,r,a],
-        [a,r,r,r,r,r,a,a],
-        [a,a,r,h,a,a,a,a],
-        [a,a,a,h,a,a,a,a]]
+    [a,a,a,r,r,a,a,g],
+    [a,a,r,r,r,g,g,g],
+    [a,a,r,r,r,r,g,a],
+    [r,r,r,a,a,r,r,r],
+    [r,r,r,a,r,r,r,a],
+    [a,r,r,r,r,r,a,a],
+    [a,a,r,h,a,a,a,a],
+    [a,a,a,h,a,a,a,a]]
 
 
     character_smiley_cheeky = [
-        [a,a,b,b,b,b,b,a],
-        [a,y,y,y,y,y,y,a],
-        [y,y,a,n,y,a,n,y],
-        [y,y,y,y,y,y,y,y],
-        [y,y,y,y,y,y,y,y],
-        [y,y,a,r,r,r,a,y],
-        [a,y,y,r,r,r,y,a],
-        [a,a,y,y,r,y,a,a]]
+    [a,a,b,b,b,b,b,a],
+    [a,y,y,y,y,y,y,a],
+    [y,y,a,n,y,a,n,y],
+    [y,y,y,y,y,y,y,y],
+    [y,y,y,y,y,y,y,y],
+    [y,y,a,r,r,r,a,y],
+    [a,y,y,r,r,r,y,a],
+    [a,a,y,y,r,y,a,a]]
 
 
     character_smiley = [
