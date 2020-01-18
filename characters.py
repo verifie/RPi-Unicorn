@@ -1,7 +1,5 @@
 # characters
 
-callCharacters()
-
 # ---------------------------------------------------------------------------------
 
 # Define characters in typeface definitions.
