@@ -7,7 +7,7 @@ def callCharacters():
 
     print("Function : callCharacters")
 
-    self.typeface_characters = [
+    typeface_characters = [
         'character_smiley',
         'character_smiley_cheeky',
         'character_poppy',
