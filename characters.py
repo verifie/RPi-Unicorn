@@ -109,7 +109,7 @@ def callCharacters():
     # Define typeface global character_s.
 
 
-    self.character_poppy = [
+    character_poppy = [
     [a,a,a,r,r,a,a,g],
     [a,a,r,r,r,g,g,g],
     [a,a,r,r,r,r,g,a],
