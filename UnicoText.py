@@ -14,7 +14,10 @@
 # 20191028 PME - First draft.
 # 20200117 PME - Convert 2D multi-string character arrays to a single 3D array for each character.
 # 20200118 PME - Call multiple characters and show them sequentially
-
+# 20200118 2257 PME - Added to git.
+#
+# Next stage:
+# Convert this to Object Oriented code (Its designed for it, but currently expanded from screen writing trials!)
 
 # ---------------------------------------------------------------------------------
 
@@ -22,6 +25,15 @@
 
 import time
 import unicornhat as unicorn
+
+
+# ---------------------------------------------------------------------------------
+
+# Choose a letter
+
+chosen_char = character_smiley_cheeky
+
+
 
 
 # ---------------------------------------------------------------------------------
@@ -1042,21 +1054,18 @@ character_ = [
 while True:
 
 	# Add some delay.
-        time.sleep(0.5)
+        #time.sleep(0.5)
 
         # Set all pixels this colour.
 
 
         while fullpanel:
-                time.sleep(0.5)
-
-                # Construct a letter string from just one character (save repeat adjustments for each row..)
-
-                chosen_char = character_smile
+                #time.sleep(0.5)
 
                 # Not used, but part of a for loop to automatically create the item below.
                 n = 0
 
+                # Lookup the row data from the 3d character array.
                 row_string_0 = chosen_char[0]
                 row_string_1 = chosen_char[1]
                 row_string_2 = chosen_char[2]
