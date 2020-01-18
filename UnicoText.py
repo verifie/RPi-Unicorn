@@ -36,7 +36,7 @@ callCharacters()
 
 # Choose a letter
 
-chosen_char = self.character_smiley_cheeky
+chosen_char = character_smiley_cheeky
 
 
 

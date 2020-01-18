@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------
 
 # Define characters in typeface definitions.
-def callCharacters(self):
+def callCharacters():
 
     print("Function : callCharacters")
 
@@ -110,7 +110,7 @@ def callCharacters(self):
     # Define typeface 'characters.
 
 
-    self.character_poppy = [
+    global character_poppy = [
     [a,a,a,r,r,a,a,g],
     [a,a,r,r,r,g,g,g],
     [a,a,r,r,r,r,g,a],
@@ -121,7 +121,7 @@ def callCharacters(self):
     [a,a,a,h,a,a,a,a]]
 
 
-    self.character_smiley_cheeky = [
+    global character_smiley_cheeky = [
     [a,a,b,b,b,b,b,a],
     [a,y,y,y,y,y,y,a],
     [y,y,a,n,y,a,n,y],
@@ -132,7 +132,7 @@ def callCharacters(self):
     [a,a,y,y,r,y,a,a]]
 
 
-    self.character_smiley = [
+    global character_smiley = [
     [a,a,a,a,a,a,a,a],
     [a,w,w,a,a,w,w,a],
     [a,w,n,a,a,n,w,a],
@@ -143,7 +143,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_A = [
+    global character_A = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,a,a,a,a],
     [a,a,q,a,q,a,a,a],
@@ -154,7 +154,7 @@ def callCharacters(self):
     [q,q,q,a,q,q,q,a]]
 
 
-    self.character_B = [
+    global character_B = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -165,7 +165,7 @@ def callCharacters(self):
     [a,q,q,q,q,a,a,a]]
 
 
-    self.character_C = [
+    global character_C = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,q,q,a,a],
     [a,a,q,a,a,a,q,a],
@@ -176,7 +176,7 @@ def callCharacters(self):
     [a,a,a,q,q,q,a,a]]
 
 
-    self.character_D = [
+    global character_D = [
     [a,a,a,a,a,a,a,a],
     [a,q,q,q,a,a,a,a],
     [a,q,a,a,q,a,a,a],
@@ -187,7 +187,7 @@ def callCharacters(self):
     [a,q,q,q,a,a,a,a]]
 
 
-    self.character_E = [
+    global character_E = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,q,a,a],
     [a,q,a,a,a,q,a,a],
@@ -198,7 +198,7 @@ def callCharacters(self):
     [a,a,q,q,q,q,a,a]]
 
 
-    self.character_F = [
+    global character_F = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,q,q,a],
     [a,q,a,a,a,a,a,a],
@@ -209,7 +209,7 @@ def callCharacters(self):
     [a,q,a,a,a,a,a,a]]
 
 
-    self.character_G = [
+    global character_G = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,q,a,a],
     [a,q,a,a,a,q,a,a],
@@ -220,7 +220,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_H = [
+    global character_H = [
     [a,a,a,a,a,a,a,a],
     [q,q,q,a,q,q,q,a],
     [a,q,a,a,a,q,a,a],
@@ -231,7 +231,7 @@ def callCharacters(self):
     [q,q,q,a,q,q,q,a]]
 
 
-    self.character_I = [
+    global character_I = [
     [a,a,a,a,a,a,a,a],
     [a,q,q,q,q,q,a,a],
     [a,a,a,q,a,a,a,a],
@@ -242,7 +242,7 @@ def callCharacters(self):
     [a,q,q,q,q,q,a,a]]
 
 
-    self.character_J = [
+    global character_J = [
     [a,a,a,a,a,a,a,a],
     [a,q,q,q,q,q,q,a],
     [a,a,a,a,q,a,a,a],
@@ -253,7 +253,7 @@ def callCharacters(self):
     [a,a,q,q,a,a,a,a]]
 
 
-    self.character_K = [
+    global character_K = [
     [a,a,a,a,a,a,a,a],
     [a,q,a,a,a,a,q,a],
     [a,q,a,a,a,q,a,a],
@@ -264,7 +264,7 @@ def callCharacters(self):
     [a,q,a,a,a,a,q,a]]
 
 
-    self.character_L = [
+    global character_L = [
     [a,a,a,a,a,a,a,a],
     [q,q,q,a,a,a,a,a],
     [a,q,a,a,a,a,a,a],
@@ -275,7 +275,7 @@ def callCharacters(self):
     [a,q,q,q,q,q,q,a]]
 
 
-    self.character_M = [
+    global character_M = [
     [a,a,a,a,a,a,a,a],
     [q,q,a,a,a,q,q,a],
     [q,a,q,a,q,a,q,a],
@@ -286,7 +286,7 @@ def callCharacters(self):
     [q,a,a,a,a,a,q,a]]
 
 
-    self.character_N = [
+    global character_N = [
     [a,a,a,a,a,a,a,a],
     [q,q,a,a,a,a,q,a],
     [q,a,q,a,a,a,q,a],
@@ -297,7 +297,7 @@ def callCharacters(self):
     [q,a,a,a,a,a,q,a]]
 
 
-    self.character_O = [
+    global character_O = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -308,7 +308,7 @@ def callCharacters(self):
     [a,a,a,q,q,a,a,a]]
 
 
-    self.character_P = [
+    global character_P = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -319,7 +319,7 @@ def callCharacters(self):
     [a,q,a,a,a,a,a,a]]
 
 
-    self.character_Q = [
+    global character_Q = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -330,7 +330,7 @@ def callCharacters(self):
     [a,a,q,q,a,a,q,a]]
 
 
-    self.character_R = [
+    global character_R = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -341,7 +341,7 @@ def callCharacters(self):
     [a,q,a,a,q,q,a,a]]
 
 
-    self.character_S = [
+    global character_S = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,q,a,a],
     [a,q,a,a,a,a,q,a],
@@ -352,7 +352,7 @@ def callCharacters(self):
     [a,a,q,q,q,q,a,a]]
 
 
-    self.character_T = [
+    global character_T = [
     [a,a,a,a,a,a,a,a],
     [a,q,q,q,q,q,a,a],
     [a,a,a,q,a,a,a,a],
@@ -363,7 +363,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_U = [
+    global character_U = [
     [a,a,a,a,a,a,a,a],
     [a,q,a,a,a,q,a,a],
     [a,q,a,a,a,q,a,a],
@@ -374,7 +374,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_V = [
+    global character_V = [
     [a,a,a,a,a,a,a,a],
     [q,a,a,a,a,a,q,a],
     [a,q,a,a,a,a,q,a],
@@ -385,7 +385,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_W = [
+    global character_W = [
     [a,a,a,a,a,a,a,a],
     [q,a,a,a,a,a,q,a],
     [q,a,a,a,a,a,q,a],
@@ -396,7 +396,7 @@ def callCharacters(self):
     [a,a,q,a,q,a,a,a]]
 
 
-    self.character_X = [
+    global character_X = [
     [a,a,a,a,a,a,a,a],
     [q,a,a,a,a,a,q,a],
     [a,q,a,a,a,q,a,a],
@@ -407,7 +407,7 @@ def callCharacters(self):
     [q,a,a,a,a,a,q,a]]
 
 
-    self.character_Y = [
+    global character_Y = [
     [a,a,a,a,a,a,a,a],
     [a,q,a,a,a,a,q,a],
     [a,q,a,a,a,a,q,a],
@@ -418,7 +418,7 @@ def callCharacters(self):
     [a,a,q,q,q,q,a,a]]
 
 
-    self.character_Z = [
+    global character_Z = [
     [a,a,a,a,a,a,a,a],
     [a,q,q,q,q,q,a,a],
     [a,a,a,a,a,q,a,a],
@@ -429,7 +429,7 @@ def callCharacters(self):
     [a,q,q,q,q,q,a,a]]
 
 
-    self.character_plus = [
+    global character_plus = [
     [a,a,a,q,a,a,a,a],
     [a,a,a,q,a,a,a,a],
     [a,a,a,q,a,a,a,a],
@@ -440,7 +440,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_a = [
+    global character_a = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -451,7 +451,7 @@ def callCharacters(self):
     [a,a,q,q,a,q,a,a]]
 
 
-    self.character_b = [
+    global character_b = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,q,a,a,a,a,a],
@@ -462,7 +462,7 @@ def callCharacters(self):
     [a,a,a,q,q,a,a,a]]
 
 
-    self.character_c = [
+    global character_c = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -473,7 +473,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_d = [
+    global character_d = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,q,a,a,a],
@@ -484,7 +484,7 @@ def callCharacters(self):
     [a,a,q,q,a,q,a,a]]
 
 
-    self.character_e = [
+    global character_e = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -495,7 +495,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_f = [
+    global character_f = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,q,a,a,a],
     [a,a,q,a,a,q,a,a],
@@ -506,7 +506,7 @@ def callCharacters(self):
     [a,q,a,a,a,a,a,a]]
 
 
-    self.character_g = [
+    global character_g = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,a,a,a,a],
@@ -517,7 +517,7 @@ def callCharacters(self):
     [a,a,q,q,a,a,a,a]]
 
 
-    self.character_h = [
+    global character_h = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,q,a,a,a,a,a,a],
@@ -528,7 +528,7 @@ def callCharacters(self):
     [a,q,a,a,a,q,a,a]]
 
 
-    self.character_i = [
+    global character_i = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,q,a,a,a,a,a,a],
@@ -539,7 +539,7 @@ def callCharacters(self):
     [a,a,q,q,a,a,a,a]]
 
 
-    self.character_j = [
+    global character_j = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,q,a,a],
@@ -550,7 +550,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_k = [
+    global character_k = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,q,a,a,a,a,a],
@@ -561,7 +561,7 @@ def callCharacters(self):
     [a,a,q,a,a,q,a,a]]
 
 
-    self.character_l = [
+    global character_l = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,q,a,a,a,a,a],
@@ -572,7 +572,7 @@ def callCharacters(self):
     [a,a,a,q,q,a,a,a]]
 
 
-    self.character_m = [
+    global character_m = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -583,7 +583,7 @@ def callCharacters(self):
     [a,q,a,a,a,q,a,a]]
 
 
-    self.character_n = [
+    global character_n = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -594,7 +594,7 @@ def callCharacters(self):
     [a,a,q,a,a,q,a,a]]
 
 
-    self.character_o = [
+    global character_o = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -605,7 +605,7 @@ def callCharacters(self):
     [a,a,a,q,q,a,a,a]]
 
 
-    self.character_p = [
+    global character_p = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -616,7 +616,7 @@ def callCharacters(self):
     [a,a,q,a,a,a,a,a]]
 
 
-    self.character_q = [
+    global character_q = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -627,7 +627,7 @@ def callCharacters(self):
     [a,a,a,a,a,q,q,a]]
 
 
-    self.character_r = [
+    global character_r = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -638,7 +638,7 @@ def callCharacters(self):
     [a,a,q,a,a,a,a,a]]
 
 
-    self.character_s = [
+    global character_s = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -649,7 +649,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_t = [
+    global character_t = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,q,a,a,a,a,a,a],
@@ -660,7 +660,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_u = [
+    global character_u = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -671,7 +671,7 @@ def callCharacters(self):
     [a,a,a,a,q,q,a,a]]
 
 
-    self.character_v = [
+    global character_v = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -682,7 +682,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_w = [
+    global character_w = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -693,7 +693,7 @@ def callCharacters(self):
     [a,a,q,a,q,a,a,a]]
 
 
-    self.character_x = [
+    global character_x = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -704,7 +704,7 @@ def callCharacters(self):
     [a,q,a,a,a,q,a,a]]
 
 
-    self.character_y = [
+    global character_y = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -714,7 +714,7 @@ def callCharacters(self):
     [a,a,a,a,q,a,a,a],
     [a,q,q,q,a,a,a,a]]
 
-    self.character_z = [
+    global character_z = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -725,7 +725,7 @@ def callCharacters(self):
     [a,a,q,q,q,q,a,a]]
 
 
-    self.character_arrow_left = [
+    global character_arrow_left = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,a,a,a,a],
     [a,a,q,a,a,a,a,a],
@@ -736,7 +736,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_arrow_right = [
+    global character_arrow_right = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,q,a,a,a],
     [a,a,a,a,a,q,a,a],
@@ -747,7 +747,7 @@ def callCharacters(self):
     [a,a,a,a,q,a,a,a]]
 
 
-    self.character_arrow_down = [
+    global character_arrow_down = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,a,a,a,a],
     [a,a,a,q,a,a,a,a],
@@ -758,7 +758,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_arrow_up = [
+    global character_arrow_up = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,a,a,a,a],
     [a,a,q,a,q,a,a,a],
@@ -769,7 +769,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_exclaim = [
+    global character_exclaim = [
     [a,a,a,q,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,a,q,q,q,a,a,a],
@@ -780,7 +780,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_dash = [
+    global character_dash = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -791,7 +791,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character__ = [
+    global character__ = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -802,7 +802,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_stop = [
+    global character_stop = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -813,7 +813,7 @@ def callCharacters(self):
     [a,a,a,q,a,a,a,a]]
 
 
-    self.character_divide = [
+    global character_divide = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,q,q,a,a,a],
     [a,a,a,q,q,a,a,a],
@@ -824,7 +824,7 @@ def callCharacters(self):
     [a,a,a,q,q,a,a,a]]
 
 
-    self.character_space = [
+    global character_space = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -835,7 +835,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_dot = [
+    global character_dot = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -846,7 +846,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_pound = [
+    global character_pound = [
     [a,a,a,a,q,q,a,a],
     [a,a,a,q,a,a,q,a],
     [a,a,q,a,a,a,a,a],
@@ -857,7 +857,7 @@ def callCharacters(self):
     [a,q,a,q,q,q,q,a]]
 
 
-    self.character_1 = [
+    global character_1 = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,a,a,a,a],
     [a,q,a,q,q,a,a,a],
@@ -868,7 +868,7 @@ def callCharacters(self):
     [a,q,q,q,q,q,a,a]]
 
 
-    self.character_2 = [
+    global character_2 = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -879,7 +879,7 @@ def callCharacters(self):
     [a,q,q,q,q,q,a,a]]
 
 
-    self.character_3 = [
+    global character_3 = [
     [a,a,a,a,a,a,a,a],
     [a,a,q,q,q,a,a,a],
     [a,q,a,a,a,q,a,a],
@@ -890,7 +890,7 @@ def callCharacters(self):
     [a,a,q,q,q,a,a,a]]
 
 
-    self.character_4 = [
+    global character_4 = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,w,w,a,a,a],
     [a,a,w,a,w,a,a,a],
@@ -901,7 +901,7 @@ def callCharacters(self):
     [a,a,a,a,w,a,a,a]]
 
 
-    self.character_5 = [
+    global character_5 = [
     [a,a,a,a,a,a,a,a],
     [a,w,w,w,w,w,a,a],
     [a,w,a,a,a,a,a,a],
@@ -912,7 +912,7 @@ def callCharacters(self):
     [a,a,w,w,w,a,a,a]]
 
 
-    self.character_6 = [
+    global character_6 = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,w,w,a,a,a],
     [a,a,w,a,a,a,a,a],
@@ -923,7 +923,7 @@ def callCharacters(self):
     [a,a,a,w,w,a,a,a]]
 
 
-    self.character_7 = [
+    global character_7 = [
     [a,a,a,a,a,a,a,a],
     [a,w,w,w,w,a,a,a],
     [a,a,a,a,a,w,a,a],
@@ -934,7 +934,7 @@ def callCharacters(self):
     [a,w,a,a,a,a,a,a]]
 
 
-    self.character_8 = [
+    global character_8 = [
     [a,a,a,a,a,a,a,a],
     [a,a,w,w,w,a,a,a],
     [a,w,a,a,a,w,a,a],
@@ -945,7 +945,7 @@ def callCharacters(self):
     [a,a,w,w,w,a,a,a]]
 
 
-    self.character_9 = [
+    global character_9 = [
     [a,a,a,a,a,a,a,a],
     [a,a,w,w,w,a,a,a],
     [a,w,a,a,a,w,a,a],
@@ -955,7 +955,7 @@ def callCharacters(self):
     [a,a,a,a,w,a,a,a],
     [a,a,a,w,a,a,a,a]]
 
-    self.character_0 = [
+    global character_0 = [
     [a,a,a,a,a,a,a,a],
     [a,a,w,w,w,a,w,a],
     [a,w,a,a,a,w,a,a],
@@ -966,7 +966,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_0 = [
+    global character_0 = [
     [a,a,a,a,a,a,a,a],
     [a,a,w,w,w,a,w,a],
     [a,w,a,a,a,w,a,a],
@@ -977,7 +977,7 @@ def callCharacters(self):
     [a,a,a,a,a,a,a,a]]
 
 
-    self.character_ = [
+    global character_ = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
