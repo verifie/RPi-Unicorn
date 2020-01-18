@@ -53,25 +53,6 @@ width,height=unicorn.get_shape()
 
 # ---------------------------------------------------------------------------------
 
-# Define colour swatch key. Format Red, Green, Blue, 0-255.
-
-a = [0,0,0]                 # Black
-w = [255,255,255]           # White
-r = [255,0,0]               # Red
-t = [255,150,150]           # Light Red
-g = [0,255,0]               # Green
-h = [150,255,150]           # Light Green
-b = [0,0,255]               # Blue
-n = [150,250,150]           # Light Blue
-p = [255,0,255]             # Purple
-y = [255,255,0]             # Yellow
-o = [200,100,0]             # Orange
-l = [255,0,200]             # Pink
-q = o                       # Character Colour (Change to RGB or previously defined colour as wanted)
-
-
-# ---------------------------------------------------------------------------------
-
 # Setting the starting Variables.
 
 r = 255
