@@ -986,3 +986,5 @@ def callCharacters():
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a]]
 
+
+callCharacters()
