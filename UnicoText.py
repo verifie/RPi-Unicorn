@@ -30,7 +30,7 @@ from characters import callCharacters
 
 
 # Setup Variables
-callCharacters()
+callCharacters(self)
 
 # ---------------------------------------------------------------------------------
 
