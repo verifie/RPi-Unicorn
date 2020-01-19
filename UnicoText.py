@@ -103,7 +103,7 @@ while True:
                 letter_count = 0
         
         time.sleep(1)
-        unicorn.clear()
+        unicorn.off()
         fullpanel = True
 
 
