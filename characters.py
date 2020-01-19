@@ -1,5 +1,7 @@
 # characters
 
+# Version History
+# 20200119 2231 PME - Amending character name for space to  .
 # ---------------------------------------------------------------------------------
 
 # Define characters in typeface definitions.
@@ -79,7 +81,7 @@ def init():
     global character_divide
     global character_subtract
     global character_multiply
-    global character_space
+    global character_
     global character_dash
     global character_dot
     global character_pound
@@ -823,7 +825,7 @@ def init():
     [a,a,a,q,q,a,a,a]]
 
 
-    character_space = [
+    character_ = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
@@ -834,7 +836,7 @@ def init():
     [a,a,a,a,a,a,a,a]]
 
 
-    character_dot = [
+    character_ = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
