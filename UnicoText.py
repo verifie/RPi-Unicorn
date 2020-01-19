@@ -187,7 +187,7 @@ while True:
 
 
 
-                fullpanel = False
+                #fullpanel = False
 
 
 
