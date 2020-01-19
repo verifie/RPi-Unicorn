@@ -48,17 +48,15 @@ unicornSetup()
 # ---------------------------------------------------------------------------------
 
 # Setting the starting Variables.
-def resetLogic():
 
-        colour = 1
-        column_position = 0
-        row_position = 0
-        within_columns = True
-        within_rows = True
-        fullpanel = True
+colour = 1
+column_position = 0
+row_position = 0
+within_columns = True
+within_rows = True
+fullpanel = True
 
 
-resetLogic()
 letter_count = 0
 
 # ---------------------------------------------------------------------------------
@@ -111,7 +109,10 @@ while True:
         
         fullpanel = True
         
-        resetLogic()
+        column_position = 0
+        row_position = 0
+        within_columns = True
+        within_rows = True
 
 
         while fullpanel:
