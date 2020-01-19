@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------
 
 # Define characters in typeface definitions.
-def callCharacters():
+def init():
 
     print("Function : callCharacters")
 

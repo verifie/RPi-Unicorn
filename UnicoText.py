@@ -26,11 +26,7 @@
 import time
 import unicornhat as unicorn
 
-from characters import callCharacters
-
-
-# Setup Variables
-callCharacters()
+import characters
 
 # ---------------------------------------------------------------------------------
 
