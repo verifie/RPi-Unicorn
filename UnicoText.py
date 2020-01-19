@@ -36,8 +36,6 @@ characters.init()
 chosen_char = characters.character_4
 
 
-
-
 # ---------------------------------------------------------------------------------
 
 # Setup Hardware : Unicorn LED Raspberry Pi HAT.
@@ -169,7 +167,7 @@ while True:
                                         print("End of Column")
 
                                         # Return column_position to first column
-                                        column_position = len(row0) - 1
+                                        column_position = len(row_string_0) - 1
                                         
                                         # Increment the row position.
                                         row_position = row_position - 1
