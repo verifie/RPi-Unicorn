@@ -73,6 +73,11 @@ while True:
         # ---------------------------------------------------------------------------------
 
         # Alternate letters with pause in time.
+        if letter_count == 0:
+
+                # Choose a letter
+                chosen_char = characters.character_
+                print("Showing : ")
 
         if letter_count == 1:
 
