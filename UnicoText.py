@@ -105,7 +105,7 @@ while True:
 
         if letter_count == 4:
                 letter_count = 0
-                time.sleep(3)
+                time.sleep(1)
         
         fullpanel = True
         
