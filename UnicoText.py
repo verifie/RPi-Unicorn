@@ -111,7 +111,8 @@ while True:
                 time.sleep(3)
         
         fullpanel = True
-
+        
+        unicorn.off()
 
 
         while fullpanel:
