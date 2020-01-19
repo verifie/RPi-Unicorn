@@ -85,27 +85,24 @@ while True:
                 # Choose a letter
                 chosen_char = characters.character_l
                 print("Showing : l")
-                time.sleep(0.5)
 
         if letter_count == 2:
 
                 # Choose a letter
                 chosen_char = characters.character_e
                 print("Showing : e")
-                time.sleep(0.5)
 
         if letter_count == 3:
 
                 # Choose a letter
                 chosen_char = characters.character_x
                 print("Showing : x")
-                time.sleep(0.5)
 
-        letter_count = letter_count + 1
 
         if letter_count == 4:
                 letter_count = 0
-                time.sleep(1)
+        
+        letter_count = letter_count + 1
         
         fullpanel = True
         
@@ -113,6 +110,8 @@ while True:
         row_position = 0
         within_columns = True
         within_rows = True
+
+        time.sleep(0.5)
 
 
         while fullpanel:
