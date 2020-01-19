@@ -74,39 +74,36 @@ while True:
 
         # Alternate letters with pause in time.
 
-        if letter_count == 0:
+        if letter_count == 1:
 
                 # Choose a letter
                 chosen_char = characters.character_A
                 print("Showing : A")
-                letter_count = letter_count + 1
-
-        if letter_count == 1:
-
-                # Choose a letter
-                chosen_char = characters.character_l
-                print("Showing : l")
-                letter_count = letter_count + 1
 
         if letter_count == 2:
 
                 # Choose a letter
-                chosen_char = characters.character_e
-                print("Showing : e")
-                letter_count = letter_count + 1
+                chosen_char = characters.character_l
+                print("Showing : l")
 
         if letter_count == 3:
 
                 # Choose a letter
-                chosen_char = characters.character_x
-                print("Showing : x")
-                letter_count = letter_count + 1
-
+                chosen_char = characters.character_e
+                print("Showing : e")
 
         if letter_count == 4:
+
+                # Choose a letter
+                chosen_char = characters.character_x
+                print("Showing : x")
+
+
+        if letter_count == 5:
                 letter_count = 0
         
-
+        letter_count = letter_count + 1
+        
         fullpanel = True
         
         column_position = 0
