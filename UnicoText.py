@@ -27,6 +27,7 @@ import time
 import unicornhat as unicorn
 
 import characters
+characters.init()
 
 # ---------------------------------------------------------------------------------
 
