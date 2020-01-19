@@ -781,7 +781,7 @@ def init():
     [a,a,q,q,q,a,a,a]]
 
 
-    character_- = [
+    character_hyphen = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
