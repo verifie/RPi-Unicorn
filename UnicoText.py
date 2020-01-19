@@ -32,7 +32,7 @@ import characters
 
 # Choose a letter
 
-chosen_char = characters.character_poppy
+chosen_char = characters.character_4
 
 
 
