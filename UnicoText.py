@@ -191,7 +191,6 @@ while True:
                     
                                 unicorn.set_pixel(int(column_position), int(row_position), int(red), int(green), int(blue))
 
-                                unicorn.show()
 
                                 # Prepare for the next item in the list by changing the position.  Set the Column position
                                 column_position = column_position - 1
@@ -224,6 +223,7 @@ while True:
 
 
 
+                unicorn.show()
                 fullpanel = False
 
 
