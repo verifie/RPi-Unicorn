@@ -106,7 +106,7 @@ while True:
                 # Set short_space variable to False to make the next loop clear the screen to make the text easier to read.
                 short_space = False
         
-        else
+        else:
                 # Set the screen blank in this loop so the text stream is easier to read.  This will come out when we nicely scroll the text.
                 this_character = characters.character_
                 chosen_char = this_character
