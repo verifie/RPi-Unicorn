@@ -62,7 +62,7 @@ unicornSetup()
 
 # Setting the starting Variables.
 
-msg_speed = 0.3
+msg_speed = 0.15
 colour = 1
 column_position = 0
 row_position = 0
