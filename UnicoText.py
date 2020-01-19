@@ -103,6 +103,7 @@ while True:
                 letter_count = 0
         
         time.sleep(1)
+        unicornhat.clear()
         fullpanel = True
 
 
@@ -115,10 +116,6 @@ while True:
 
                 # Not used, but part of a for loop to automatically create the item below.
                 n = 0
-
-
-
-
 
 
                 # Lookup the row data from the 3d character array.
