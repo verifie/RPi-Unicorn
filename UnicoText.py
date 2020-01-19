@@ -79,31 +79,34 @@ while True:
                 # Choose a letter
                 chosen_char = characters.character_A
                 print("Showing : A")
+                letter_count = letter_count + 1
 
         if letter_count == 1:
 
                 # Choose a letter
                 chosen_char = characters.character_l
                 print("Showing : l")
+                letter_count = letter_count + 1
 
         if letter_count == 2:
 
                 # Choose a letter
                 chosen_char = characters.character_e
                 print("Showing : e")
+                letter_count = letter_count + 1
 
         if letter_count == 3:
 
                 # Choose a letter
                 chosen_char = characters.character_x
                 print("Showing : x")
+                letter_count = letter_count + 1
 
 
         if letter_count == 4:
                 letter_count = 0
         
-        letter_count = letter_count + 1
-        
+
         fullpanel = True
         
         column_position = 0
