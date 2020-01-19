@@ -37,6 +37,7 @@ characters.init()
 
 def unicornSetup ():
         unicorn.off()
+        unicorn.clear()
         unicorn.set_layout(unicorn.AUTO)
         unicorn.rotation(0)
         unicorn.brightness(0.5)
@@ -87,38 +88,34 @@ while True:
                 # Choose a letter
                 chosen_char = characters.character_l
                 print("Showing : l")
+                time.sleep(3)
 
         if letter_count == 2:
 
                 # Choose a letter
                 chosen_char = characters.character_e
                 print("Showing : e")
+                time.sleep(3)
 
         if letter_count == 3:
 
                 # Choose a letter
                 chosen_char = characters.character_x
                 print("Showing : x")
+                time.sleep(3)
 
         letter_count = letter_count + 1
 
         if letter_count == 4:
                 letter_count = 0
+                time.sleep(3)
         
-        time.sleep(3)
         fullpanel = True
-
-
-
 
 
 
         while fullpanel:
                 #time.sleep(0.5)
-
-                # Not used, but part of a for loop to automatically create the item below.
-                n = 0
-
 
                 # Lookup the row data from the 3d character array.
                 row_string_0 = chosen_char[0]
