@@ -201,7 +201,7 @@ while True:
                                 
 
                                 # Check to see if we've passed the last column and exit the column setting loop if we have. Or allow the loop to repeat.
-                                if column_position < 0:
+                                if column_position == 0:
                                         print("End of Column")
 
                                         # Return column_position to first column
