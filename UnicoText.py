@@ -43,6 +43,7 @@ def unicornSetup ():
         width,height=unicorn.get_shape()
 
 
+unicornSetup ()
 # ---------------------------------------------------------------------------------
 
 # Setting the starting Variables.
@@ -105,7 +106,6 @@ while True:
                 letter_count = 0
         
         time.sleep(3)
-        unicornSetup ()
         fullpanel = True
 
 
@@ -193,6 +193,7 @@ while True:
                     
                                 unicorn.set_pixel(int(column_position), int(row_position), int(red), int(green), int(blue))
 
+                                unicorn.show()
 
                                 # Prepare for the next item in the list by changing the position.  Set the Column position
                                 column_position = column_position - 1
@@ -225,7 +226,6 @@ while True:
 
 
 
-                unicorn.show()
                 fullpanel = False
 
 
