@@ -132,9 +132,9 @@ while True:
                                 #time.sleep(0.01)
                                                
                                 # Select data from the position in the array
-                                print("Column Position : ", column_position) 
+                                #print("Column Position : ", column_position) 
                                 rgb_data = row[column_position]
-                                print("RGB Data : ", rgb_data)
+                                #print("RGB Data : ", rgb_data)
 
 
                                 # Set the colour
@@ -160,11 +160,11 @@ while True:
 
                                 # Tell panel to show the colour.  You can do this here to create each pixel, or at the end of each column loop, or row loops to draw
                                 # everything at once.  This way replicated the way a computer might normally 'draw' to a monitor
-                                unicorn.show()
+                                
 
                                 # Check to see if we've passed the last column and exit the column setting loop if we have. Or allow the loop to repeat.
                                 if column_position < 0:
-                                        print("End of Column")
+                                        #print("End of Column")
 
                                         # Return column_position to first column
                                         column_position = len(row_string_0) - 1
@@ -179,14 +179,14 @@ while True:
                         within_columns = True
 
                         if row_position < 0:
-                                print("End of rows")
+                                #print("End of rows")
 
                                 within_rows = False
 
 
 
 
-
+                unicorn.show()
                 fullpanel = False
 
 
