@@ -35,10 +35,12 @@ characters.init()
 
 # Setup Hardware : Unicorn LED Raspberry Pi HAT.
 
-unicorn.set_layout(unicorn.AUTO)
-unicorn.rotation(0)
-unicorn.brightness(0.5)
-width,height=unicorn.get_shape()
+def unicornSetup ():
+        unicorn.off()
+        unicorn.set_layout(unicorn.AUTO)
+        unicorn.rotation(0)
+        unicorn.brightness(0.5)
+        width,height=unicorn.get_shape()
 
 
 # ---------------------------------------------------------------------------------
@@ -102,8 +104,8 @@ while True:
         if letter_count == 4:
                 letter_count = 0
         
-        time.sleep(1)
-        unicorn.off()
+        time.sleep(3)
+        unicornSetup ()
         fullpanel = True
 
 
