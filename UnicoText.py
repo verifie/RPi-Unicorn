@@ -35,7 +35,7 @@ characters.init()
 
 # Setup Hardware : Unicorn LED Raspberry Pi HAT.
 
-def unicornSetup ():
+def unicornSetup():
         unicorn.off()
         unicorn.clear()
         unicorn.set_layout(unicorn.AUTO)
@@ -44,7 +44,7 @@ def unicornSetup ():
         width,height=unicorn.get_shape()
 
 
-unicornSetup ()
+unicornSetup()
 # ---------------------------------------------------------------------------------
 
 # Setting the starting Variables.
@@ -58,7 +58,7 @@ def resetLogic():
         fullpanel = True
 
 
-resetLogic():
+resetLogic()
 letter_count = 0
 
 # ---------------------------------------------------------------------------------
@@ -111,7 +111,7 @@ while True:
         
         fullpanel = True
         
-        resetLogic():
+        resetLogic()
 
 
         while fullpanel:
@@ -168,9 +168,9 @@ while True:
                                 #time.sleep(0.01)
                                                
                                 # Select data from the position in the array
-                                print("Column Position : ", column_position) 
+                                #print("Column Position : ", column_position) 
                                 rgb_data = row[column_position]
-                                print("RGB Data : ", rgb_data)
+                                #print("RGB Data : ", rgb_data)
 
 
                                 # Set the colour
@@ -186,7 +186,7 @@ while True:
                         
 
                                 # Set the pixel   
-                                print("Column Position:", int(column_position), " Row:", int(row_position), "RGB:", int(red), int(green), int(blue))
+                                #print("Column Position:", int(column_position), " Row:", int(row_position), "RGB:", int(red), int(green), int(blue))
                     
                                 unicorn.set_pixel(int(column_position), int(row_position), int(red), int(green), int(blue))
 
@@ -201,7 +201,7 @@ while True:
 
                                 # Check to see if we've passed the last column and exit the column setting loop if we have. Or allow the loop to repeat.
                                 if column_position == 0:
-                                        print("End of Column")
+                                        #print("End of Column")
 
                                         # Return column_position to first column
                                         column_position = len(row_string_0) - 1
@@ -216,7 +216,7 @@ while True:
                         within_columns = True
 
                         if row_position < 0:
-                                print("End of Rows")
+                                #print("End of Rows")
 
                                 within_rows = False
 
