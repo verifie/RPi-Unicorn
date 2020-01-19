@@ -77,21 +77,25 @@ while True:
 
                 # Choose a letter
                 chosen_char = characters.character_A
+                print("Showing : A")
 
         if letter_count == 1:
 
                 # Choose a letter
                 chosen_char = characters.character_l
+                print("Showing : l")
 
         if letter_count == 2:
 
                 # Choose a letter
                 chosen_char = characters.character_e
+                print("Showing : e")
 
         if letter_count == 3:
 
                 # Choose a letter
                 chosen_char = characters.character_x
+                print("Showing : x")
 
         letter_count = letter_count + 1
 
@@ -99,7 +103,7 @@ while True:
                 letter_count = 0
         
         time.sleep(1)
-
+        fullpanel = True
 
 
 
