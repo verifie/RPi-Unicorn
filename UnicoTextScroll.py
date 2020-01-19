@@ -87,8 +87,12 @@ while True:
 
         msg_position_character = msg[msg_position]
         print("Current Message Position", msg_position)
+
         print("Current Message Character", msg_position_character)
 
+        # Print to display
+        this_character = ("characters.character_"+msg_position_character)
+        chosen_char = this_character
 
         # Check to see if we have reached the end of the message,  If we have, set to zero and restart.
         if msg_position == msg_end:
