@@ -666,10 +666,10 @@ def init():
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,q,a,a,a,a,a],
-    [a,q,a,q,a,a,q,a],
-    [a,a,a,q,a,a,q,a],
-    [a,a,a,q,a,a,q,a],
-    [a,a,a,a,q,q,a,a]]
+    [a,q,a,a,q,a,a,a],
+    [a,q,a,a,q,a,a,a],
+    [a,q,a,a,q,a,a,a],
+    [a,a,q,q,a,q,a,a]]
 
 
     character_v = [
