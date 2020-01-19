@@ -91,7 +91,7 @@ while True:
         print("Current Message Character", msg_position_character)
 
         # Print to display
-        this_character = ("characters.character_"+msg_position_character)
+        this_character = eval("characters.character_"+msg_position_character)
         print("This Character as passed to program :", this_character)
         chosen_char = this_character
 
