@@ -18,6 +18,7 @@
 # 20200119 2128 PME - Sequential character calling from a string of text using a LUT (Look Up Table). 
 #                     Prep for scrolling: Assemble a long run of data, then read from positions according to time.
 #                     Rotated display so Raspberry Pi power cable on top (Trial in this version).
+# 20200119 2141 PME - Bug fix, rotation.
 
 #
 #
@@ -45,7 +46,7 @@ def unicornSetup():
         unicorn.off()
         unicorn.clear()
         unicorn.set_layout(unicorn.AUTO)
-        unicorn.rotation(1)
+        unicorn.rotation(180)
         unicorn.brightness(0.5)
         width,height=unicorn.get_shape()
 
@@ -61,7 +62,6 @@ row_position = 0
 within_columns = True
 within_rows = True
 fullpanel = True
-
 
 letter_count = 0
 
