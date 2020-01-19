@@ -85,21 +85,21 @@ while True:
                 # Choose a letter
                 chosen_char = characters.character_l
                 print("Showing : l")
-                time.sleep(3)
+                time.sleep(1)
 
         if letter_count == 2:
 
                 # Choose a letter
                 chosen_char = characters.character_e
                 print("Showing : e")
-                time.sleep(3)
+                time.sleep(1)
 
         if letter_count == 3:
 
                 # Choose a letter
                 chosen_char = characters.character_x
                 print("Showing : x")
-                time.sleep(3)
+                time.sleep(1)
 
         letter_count = letter_count + 1
 
