@@ -42,7 +42,7 @@ characters.init()
 # ---------------------------------------------------------------------------------
 
 #       MESSAGE STRING
-msg = "Hello Alex How are you"
+msg = " Hello Alex How are you  "
 
 # ---------------------------------------------------------------------------------
 
@@ -69,6 +69,7 @@ row_position = 0
 within_columns = True
 within_rows = True
 fullpanel = True
+short_space = True
 
 # Inspect msg data to determine specification of task.
 print("Message to display : ", msg)
@@ -84,26 +85,35 @@ while True:
 
         # ---------------------------------------------------------------------------------
 
+        if short_space == True:
+                msg_position_character = msg[msg_position]
+                print("Current Message Position", msg_position)
 
-        msg_position_character = msg[msg_position]
-        print("Current Message Position", msg_position)
+                print("Current Message Character", msg_position_character)
 
-        print("Current Message Character", msg_position_character)
+                # Print to display
+                this_character = eval("characters.character_"+msg_position_character)
+                #print("This Character as passed to program :", this_character)
+                chosen_char = this_character
 
-        # Print to display
-        this_character = eval("characters.character_"+msg_position_character)
-        #print("This Character as passed to program :", this_character)
-        chosen_char = this_character
+                # Check to see if we have reached the end of the message,  If we have, set to zero and restart.
+                if msg_position == msg_end:
+                        msg_position = 0
+                
+                # Increment the position by 1
+                msg_position = msg_position + 1
 
-        # Check to see if we have reached the end of the message,  If we have, set to zero and restart.
-        if msg_position == msg_end:
-                msg_position = 0
+                # Set short_space variable to False to make the next loop clear the screen to make the text easier to read.
+                short_space = False
         
-        
-        # Increment the position by 1
-        msg_position = msg_position + 1
-        
-        
+        else
+                # Set the screen blank in this loop so the text stream is easier to read.  This will come out when we nicely scroll the text.
+                this_character = characters.character_
+                chosen_char = this_character
+
+                # And invert our variable so the next cycle shows a letter from the msg string.
+                short_space = True
+
         # ---------------------------------------------------------------------------------
 
         # Prepare the screen by setting row and column position as zero (starting point), and reset within flags.
