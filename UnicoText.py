@@ -113,6 +113,10 @@ while True:
         fullpanel = True
         
         unicorn.off()
+        column_position = 0
+        row_position = 0
+        within_columns = True
+        within_rows = True
 
 
         while fullpanel:
@@ -217,7 +221,7 @@ while True:
                         within_columns = True
 
                         if row_position < 0:
-                                print("End of rows")
+                                print("End of Rows")
 
                                 within_rows = False
 
