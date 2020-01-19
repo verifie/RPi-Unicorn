@@ -82,7 +82,7 @@ def init():
     global character_subtract
     global character_multiply
     global character_
-    global character_-
+    global character_hyphen
     global character_dot
     global character_pound
 
