@@ -16,10 +16,11 @@
 # 20200118 0000 PME - Call multiple characters and show them sequentially
 # 20200118 2257 PME - Added to git. Shows more than one character in one run (Logic modified to allow multiple runs).
 # 20200119 2128 PME - Sequential character calling from a string of text using a LUT (Look Up Table). 
-#                     Prep for scrolling: Assemble a long run of data, then read from positions according to time.
-#                     Rotated display so Raspberry Pi power cable on top (Trial in this version).
+#                       Prep for scrolling: Assemble a long run of data, then read from positions according to time.
+#                       Rotated display so Raspberry Pi power cable on top (Trial in this version).
 # 20200119 2141 PME - Bug fix, rotation.
-
+# 20200119 2145 PME - Starting work on reading data from a string (to changeout for a more dynamic method later). 
+#                       This version should just read through the message on screen.  Next stage to populate a new pixel 3d variable using a LUT sequence.
 #
 #
 # Next stage:
@@ -40,6 +41,11 @@ characters.init()
 
 # ---------------------------------------------------------------------------------
 
+#       MESSAGE STRING
+msg = "Hello Alex."
+
+# ---------------------------------------------------------------------------------
+
 # Setup Hardware : Unicorn LED Raspberry Pi HAT.
 
 def unicornSetup():
@@ -56,6 +62,7 @@ unicornSetup()
 
 # Setting the starting Variables.
 
+msg_speed = 0.5
 colour = 1
 column_position = 0
 row_position = 0
@@ -63,58 +70,38 @@ within_columns = True
 within_rows = True
 fullpanel = True
 
-letter_count = 0
+# Inspect msg data to determine specification of task.
+print("Message to display : ", msg)
+msg_position = 0
+msg_end = len(msg)
+print("Message Length : ", msg_end)
 
 # ---------------------------------------------------------------------------------
 
-# Run the colour sequence in a loop.
+# Run the sequence in a permanent loop.
 
 while True:
 
-	# Add some delay.
-        #time.sleep(0.5)
-
-        # Set all pixels this colour.
-
         # ---------------------------------------------------------------------------------
 
-        # Alternate letters with pause in time.
-        if letter_count == 0:
 
-                # Choose a letter
-                chosen_char = characters.character_space
-                print("Showing : ")
-
-        if letter_count == 1:
-
-                # Choose a letter
-                chosen_char = characters.character_A
-                print("Showing : A")
-
-        if letter_count == 2:
-
-                # Choose a letter
-                chosen_char = characters.character_l
-                print("Showing : l")
-
-        if letter_count == 3:
-
-                # Choose a letter
-                chosen_char = characters.character_e
-                print("Showing : e")
-
-        if letter_count == 4:
-
-                # Choose a letter
-                chosen_char = characters.character_x
-                print("Showing : x")
+        msg_position_character = msg[msg_position]
+        print("Current Message Position", msg_position)
+        print("Current Message Character", msg_position_character)
 
 
-        if letter_count == 5:
-                letter_count = 0
+        # Check to see if we have reached the end of the message,  If we have, set to zero and restart.
+        if msg_position == msg_end:
+                msg_position = 0
         
-        letter_count = letter_count + 1
         
+        # Increment the position by 1
+        msg_position = msg_position + 1
+        
+        
+        # ---------------------------------------------------------------------------------
+
+        # Prepare the screen by setting row and column position as zero (starting point), and reset within flags.
         fullpanel = True
         
         column_position = 0
@@ -122,8 +109,11 @@ while True:
         within_columns = True
         within_rows = True
 
-        time.sleep(0.5)
+        #
+        time.sleep(msg_speed)
 
+
+        # ---------------------------------------------------------------------------------
 
         while fullpanel:
                 #time.sleep(0.5)
