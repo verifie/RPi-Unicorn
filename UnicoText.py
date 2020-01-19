@@ -73,29 +73,29 @@ while True:
 
         # Alternate letters with pause in time.
 
-        if letter_count = 0:
+        if letter_count == 0:
 
                 # Choose a letter
                 chosen_char = characters.A
 
-        if letter_count = 2:
+        if letter_count == 2:
 
                 # Choose a letter
                 chosen_char = characters.l
 
-        if letter_count = 3:
+        if letter_count == 3:
 
                 # Choose a letter
                 chosen_char = characters.e
 
-        if letter_count = 4:
+        if letter_count == 4:
 
                 # Choose a letter
                 chosen_char = characters.x
 
         letter_count = letter_count + 1
 
-        if letter_count = 4
+        if letter_count == 4
                 letter_count = 0
         
         time.sleep(1)
