@@ -76,7 +76,7 @@ while True:
         if letter_count == 0:
 
                 # Choose a letter
-                chosen_char = characters.character_
+                chosen_char = characters.character_space
                 print("Showing : ")
 
         if letter_count == 1:
