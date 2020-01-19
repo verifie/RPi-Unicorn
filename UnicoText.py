@@ -92,7 +92,7 @@ while True:
                 row_string_7 = chosen_char[7]
 
 
-                print("Row string construction : ", row_string_0)
+                #print("Row string construction : ", row_string_0)
 
 
                 # Computers can place items in row / column 0 (humans would call that row or column 1), but .. computers count from 1. So we must subtract
@@ -102,10 +102,10 @@ while True:
                 #row_position = len(row_string_0) - 1
                 row_position = 7
 
-                print("Starting Row Position :", row_position)
+                #print("Starting Row Position :", row_position)
 
                 column_position = len(row_string_0) - 1
-                print("Starting Column Position :", column_position)
+                #print("Starting Column Position :", column_position)
 
 
                 # Setup the panel by passing Panel data array to the device library command
@@ -116,13 +116,13 @@ while True:
                         # Add some delay for a visual debug.
                         #time.sleep(0.2)
 
-                        print("Row Position : ", row_position)
+                        #print("Row Position : ", row_position)
                         row = chosen_char[row_position]
 
 
                         # The program draws from right to left. To lightup the panel as we see it above, we must reverse the presentation of the array (7 to 0).
                         #row.reverse()
-                        print("Rows Data: ", row)
+                        #print("Rows Data: ", row)
 
 
                         # Setup column data.
@@ -140,13 +140,13 @@ while True:
                                 # Set the colour
 
                                 red = rgb_data[0]
-                                print("Red = ",red)
+                                #print("Red = ",red)
 
                                 green = rgb_data[1]
-                                print("Green = ",green)
+                                #print("Green = ",green)
 
                                 blue = rgb_data[2]
-                                print("Blue = ",blue)
+                                #print("Blue = ",blue)
                         
 
                                 # Set the pixel   
@@ -187,7 +187,7 @@ while True:
 
 
 
-                #fullpanel = False
+                fullpanel = False
 
 
 
