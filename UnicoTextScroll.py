@@ -73,7 +73,7 @@ fullpanel = True
 # Inspect msg data to determine specification of task.
 print("Message to display : ", msg)
 msg_position = 0
-msg_end = len(msg)
+msg_end = len(msg)-1
 print("Message Length : ", msg_end)
 
 # ---------------------------------------------------------------------------------
@@ -92,7 +92,7 @@ while True:
 
         # Print to display
         this_character = eval("characters.character_"+msg_position_character)
-        print("This Character as passed to program :", this_character)
+        #print("This Character as passed to program :", this_character)
         chosen_char = this_character
 
         # Check to see if we have reached the end of the message,  If we have, set to zero and restart.
