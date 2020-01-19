@@ -92,6 +92,7 @@ while True:
 
         # Print to display
         this_character = ("characters.character_"+msg_position_character)
+        print("This Character as passed to program :", this_character)
         chosen_char = this_character
 
         # Check to see if we have reached the end of the message,  If we have, set to zero and restart.
