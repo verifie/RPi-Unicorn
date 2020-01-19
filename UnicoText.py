@@ -76,22 +76,22 @@ while True:
         if letter_count == 0:
 
                 # Choose a letter
-                chosen_char = characters.character.A
+                chosen_char = characters.character_A
 
         if letter_count == 1:
 
                 # Choose a letter
-                chosen_char = characters.character.l
+                chosen_char = characters.character_l
 
         if letter_count == 2:
 
                 # Choose a letter
-                chosen_char = characters.character.e
+                chosen_char = characters.character_e
 
         if letter_count == 3:
 
                 # Choose a letter
-                chosen_char = characters.character.x
+                chosen_char = characters.character_x
 
         letter_count = letter_count + 1
 
