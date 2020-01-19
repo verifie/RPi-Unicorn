@@ -665,7 +665,7 @@ def init():
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
-    [a,a,q,a,a,a,a,a],
+    [a,q,a,a,q,a,a,a],
     [a,q,a,a,q,a,a,a],
     [a,q,a,a,q,a,a,a],
     [a,q,a,a,q,a,a,a],
