@@ -82,7 +82,7 @@ def init():
     global character_subtract
     global character_multiply
     global character_
-    global character_dash
+    global character_-
     global character_dot
     global character_pound
 
@@ -781,7 +781,7 @@ def init():
     [a,a,q,q,q,a,a,a]]
 
 
-    character_dash = [
+    character_- = [
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
     [a,a,a,a,a,a,a,a],
