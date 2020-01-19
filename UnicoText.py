@@ -33,7 +33,7 @@ characters.init()
 
 # Choose a letter
 
-chosen_char = characters.character_4
+chosen_char = characters.character_poppy
 
 
 # ---------------------------------------------------------------------------------
