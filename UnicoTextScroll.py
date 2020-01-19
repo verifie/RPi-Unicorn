@@ -42,7 +42,7 @@ characters.init()
 # ---------------------------------------------------------------------------------
 
 #       MESSAGE STRING
-msg = " Hello Alex How are you  "
+msg = " Hello Alex   How are you   Did you have a nice sleep   I really hope so   I am testing a longer message here   which seems to work   "
 
 # ---------------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ unicornSetup()
 
 # Setting the starting Variables.
 
-msg_speed = 0.15
+msg_speed = 0.2
 colour = 1
 column_position = 0
 row_position = 0
