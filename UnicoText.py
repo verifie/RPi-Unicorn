@@ -36,7 +36,7 @@ callCharacters()
 
 # Choose a letter
 
-chosen_char = callCharacters.character_poppy
+chosen_char = character_poppy
 
 
 
