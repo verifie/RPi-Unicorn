@@ -29,11 +29,6 @@ import unicornhat as unicorn
 import characters
 characters.init()
 
-# ---------------------------------------------------------------------------------
-
-# Choose a letter
-
-chosen_char = characters.character_poppy
 
 
 # ---------------------------------------------------------------------------------
@@ -61,7 +56,7 @@ within_columns = True
 within_rows = True
 fullpanel = True
 
-
+Letter_count = 0
 
 # ---------------------------------------------------------------------------------
 
@@ -74,12 +69,53 @@ while True:
 
         # Set all pixels this colour.
 
+        # ---------------------------------------------------------------------------------
+
+        # Alternate letters with pause in time.
+
+        if letter_count = 0:
+
+                # Choose a letter
+                chosen_char = characters.A
+
+        if letter_count = 2:
+
+                # Choose a letter
+                chosen_char = characters.l
+
+        if letter_count = 3:
+
+                # Choose a letter
+                chosen_char = characters.e
+
+        if letter_count = 4:
+
+                # Choose a letter
+                chosen_char = characters.x
+
+        letter_count = letter_count + 1
+
+        if letter_count = 4
+                letter_count = 0
+        
+        time.sleep(1)
+
+
+
+
+
+
 
         while fullpanel:
                 #time.sleep(0.5)
 
                 # Not used, but part of a for loop to automatically create the item below.
                 n = 0
+
+
+
+
+
 
                 # Lookup the row data from the 3d character array.
                 row_string_0 = chosen_char[0]
