@@ -56,7 +56,7 @@ within_columns = True
 within_rows = True
 fullpanel = True
 
-Letter_count = 0
+letter_count = 0
 
 # ---------------------------------------------------------------------------------
 
